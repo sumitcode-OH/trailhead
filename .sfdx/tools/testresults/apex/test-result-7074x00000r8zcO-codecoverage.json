@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "apexClassOrTriggerName": "AnimalLocator",
+      "apexClassOrTriggerId": "01p4x00000NgfSRAAZ",
+      "apexTestClassId": "01p4x00000NgfSgAAJ",
+      "apexTestMethodName": "testAnimalLocator",
+      "numLinesCovered": 8,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coverage": {
+        "coveredLines": [
+          16,
+          17,
+          18,
+          19,
+          21,
+          22,
+          25,
+          29
+        ],
+        "uncoveredLines": []
+      }
+    }
+  ]
+]

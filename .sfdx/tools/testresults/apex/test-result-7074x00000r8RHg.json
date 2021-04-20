@@ -1,0 +1,119 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 1,
+    "passing": 1,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Thu Apr 01 2021 12:30:35 PM",
+    "testExecutionTimeInMs": 15,
+    "testTotalTimeInMs": 15,
+    "commandTimeInMs": 320,
+    "hostname": "https://curious-otter-i702ll-dev-ed.my.salesforce.com",
+    "orgId": "00D4x0000066XQuEAM",
+    "username": "ssaha@curious-otter-i702ll.com",
+    "testRunId": "7074x00000r8RHg",
+    "userId": "0054x000003wDlvAAE",
+    "totalLines": 21,
+    "coveredLines": 11,
+    "testRunCoverage": "52%",
+    "orgWideCoverage": "10%"
+  },
+  "tests": [
+    {
+      "id": "07M4x000000APn0EAG",
+      "queueItemId": "7094x000000Zq2hAAC",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7074x00000r8RHgAAM",
+      "methodName": "testGetCallout",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p4x00000NgfC9AAJ",
+        "name": "AnimalsCalloutsTest",
+        "namespacePrefix": null,
+        "fullName": "AnimalsCalloutsTest"
+      },
+      "runTime": 15,
+      "testTimestamp": "2021-04-01T16:30:35.000+0000",
+      "fullName": "AnimalsCalloutsTest.testGetCallout",
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "AnimalsCallouts",
+          "apexClassOrTriggerId": "01p4x00000NgfBpAAJ",
+          "apexTestClassId": "01p4x00000NgfC9AAJ",
+          "apexTestMethodName": "testGetCallout",
+          "numLinesCovered": 11,
+          "numLinesUncovered": 10,
+          "percentage": "52%",
+          "coverage": {
+            "coveredLines": [
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              13,
+              15,
+              17,
+              19,
+              23
+            ],
+            "uncoveredLines": [
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              34,
+              40
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "codecoverage": [
+    {
+      "apexId": "01p4x00000NgfBpAAJ",
+      "name": "AnimalsCallouts",
+      "type": "ApexClass",
+      "numLinesCovered": 11,
+      "numLinesUncovered": 10,
+      "percentage": "52%",
+      "coveredLines": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        13,
+        15,
+        17,
+        19,
+        23
+      ],
+      "uncoveredLines": [
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        34,
+        40
+      ]
+    }
+  ]
+}

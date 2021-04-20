@@ -1,0 +1,8 @@
+
+GET   https://th-apex-http-callout.herokuapp.com/animals
+
+
+###
+GET  https://th-apex-http-callout.herokuapp.com/animals/1
+
+

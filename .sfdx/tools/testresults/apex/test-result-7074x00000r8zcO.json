@@ -1,0 +1,91 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 1,
+    "passing": 1,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Thu Apr 01 2021 11:27:54 PM",
+    "testExecutionTimeInMs": 26,
+    "testTotalTimeInMs": 26,
+    "commandTimeInMs": 360,
+    "hostname": "https://curious-otter-i702ll-dev-ed.my.salesforce.com",
+    "orgId": "00D4x0000066XQuEAM",
+    "username": "ssaha@curious-otter-i702ll.com",
+    "testRunId": "7074x00000r8zcO",
+    "userId": "0054x000003wDlvAAE",
+    "totalLines": 8,
+    "coveredLines": 8,
+    "testRunCoverage": "100%",
+    "orgWideCoverage": "13%"
+  },
+  "tests": [
+    {
+      "id": "07M4x000000APomEAG",
+      "queueItemId": "7094x000000Zq4YAAS",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7074x00000r8zcOAAQ",
+      "methodName": "testAnimalLocator",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p4x00000NgfSgAAJ",
+        "name": "AnimalLocatorTest",
+        "namespacePrefix": null,
+        "fullName": "AnimalLocatorTest"
+      },
+      "runTime": 26,
+      "testTimestamp": "2021-04-02T03:27:54.000+0000",
+      "fullName": "AnimalLocatorTest.testAnimalLocator",
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "AnimalLocator",
+          "apexClassOrTriggerId": "01p4x00000NgfSRAAZ",
+          "apexTestClassId": "01p4x00000NgfSgAAJ",
+          "apexTestMethodName": "testAnimalLocator",
+          "numLinesCovered": 8,
+          "numLinesUncovered": 0,
+          "percentage": "100%",
+          "coverage": {
+            "coveredLines": [
+              16,
+              17,
+              18,
+              19,
+              21,
+              22,
+              25,
+              29
+            ],
+            "uncoveredLines": []
+          }
+        }
+      ]
+    }
+  ],
+  "codecoverage": [
+    {
+      "apexId": "01p4x00000NgfSRAAZ",
+      "name": "AnimalLocator",
+      "type": "ApexClass",
+      "numLinesCovered": 8,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coveredLines": [
+        16,
+        17,
+        18,
+        19,
+        21,
+        22,
+        25,
+        29
+      ],
+      "uncoveredLines": []
+    }
+  ]
+}

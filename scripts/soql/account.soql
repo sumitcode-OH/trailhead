@@ -1,0 +1,25 @@
+
+
+    SELECT  Id, CreatedDate, NAme, IsActive , PermanentUser__c , LastLoginDate , Username  FROM User where 
+    IsActive = True 
+    AND (LastLoginDate < LAST_N_DAYS:180 OR LastLoginDate = null)
+    AND CreatedDate < LAST_N_DAYS:180
+    AND PermanentUser__c <> true
+    AND ProfileId NOT IN (SELECT Id FROM Profile where Name IN ('System Administrator'))
+    AND USERNAME IN ('tyoung@lb.com.ssaha')
+
+SELECT Name, ID, IsActive FROM User where USERNAME IN ('tyoung@lb.com.ssaha')
+
+SELECT Id, Name FROM Profile where ID = '00e3h000001EpqPAAS'
+
+Select Name, Email from User 
+where ProfileId in (SELECT Id FROM Profile where Name = 'System Administrator')
+
+
+
+
+SELECT ID, Name, Department, Title, Description FROM Contact where FirstName = 'Mario'
+
+FIND {Wingo} IN ALL FIELDS RETURNING Account(Name), Contact(FirstName,LastName,Department)
+
+SELECT Name, PermanentUser__c , email	 FROM User where email = 'ssaha@lb.com'

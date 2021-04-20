@@ -1,0 +1,40 @@
+[
+  [
+    {
+      "apexClassOrTriggerName": "AnimalsCallouts",
+      "apexClassOrTriggerId": "01p4x00000NgfBpAAJ",
+      "apexTestClassId": "01p4x00000NgfC9AAJ",
+      "apexTestMethodName": "testGetCallout",
+      "numLinesCovered": 11,
+      "numLinesUncovered": 10,
+      "percentage": "52%",
+      "coverage": {
+        "coveredLines": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          13,
+          15,
+          17,
+          19,
+          23
+        ],
+        "uncoveredLines": [
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          34,
+          40
+        ]
+      }
+    }
+  ]
+]
